@@ -15,4 +15,10 @@
     <button (click)="share()">
         Share
     </button>
+<!--receiving output from product-alerts component by binding the app-product-alerts
+component to the onNotify() method of the product-list component-->
+    <app-product-alerts 
+        [product]="product"
+        (notify)="onNotify()">
+    </app-product-alerts>
 </div>
