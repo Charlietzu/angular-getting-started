@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-getting-started-2d8a4": {
+      "hosting": {
+        "angular-getting-started": [
+          "angular-getting-started-2d8a4"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-getting-started-2d8a4"
+  }
+}
